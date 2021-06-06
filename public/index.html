@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" type="image/ico" href="image/virus.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/styles/style.css" />
+    
+    
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Home | Covid-JA</title>
+  </head>
+  
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="loading-screen">
+      <div class="l-animation">
+        <span class="loading-bar"></span>
+        <span class="loading-bar"></span>
+        <span class="loading-bar"></span>
+        <span class="loading-bar"></span>
+      </div>
+      
+
+    </div>
+
+    <div class="respnsive-menu">
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+    </div>
+
+      <nav>
+        <p class="logo">Covid-Ja</p>
+        <ul class="nav-container">
+          <li class="nav-links"><a href="#">Home</a></li>
+          <li class="nav-links"><a href="about.html">About</a></li>
+          <li class="nav-links"><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="lower-nav">
+          <a href="#">Home</a></li>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+
+      <header class="container">
+        <div class="header-info">
+          <h1>How Are You Coping With Jamaica's Situation?</h1>
+          <p class="heading-text">
+            The Coronavirus is in Jamaica, but do you take time out to follow up
+            on what is really going on in the country? Click the button below to
+            learn more about the Coronavirus in Jamaica.
+          </p>
+          <button class="header-button" id="cta">Learn More</button>
+        </div>
+
+        <div class="header-animation">
+          <lottie-player
+            src="/image/animation/header-animation.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </header>
+
+      <section class="history" id="#history">
+        <h2 class="heading">What Exactly Is The Coronavirus?</h2>
+        <div class="history-container container">
+          <div class="animation">
+            <lottie-player
+              src="/image/animation/covid.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+
+          <div class="info-container">
+            <p class="info-heading">A Brief Covid-history</p>
+            <p class="info">
+              The Coronavirus originates from Wuhan, China. It spreads primarily
+              through contact with an infected person when they cough or sneeze.
+              It also spreads when a person touches a surface or object that has
+              the virus on it, then touches their eyes, nose or mouth.
+            </p>
+
+            <p class="info-heading">Symptoms</p>
+            <ul class="info">
+              <li>
+                High temperature – this means you feel hot to touch on your
+                chest or back (you do not need to measure your temperature).
+              </li>
+              <li>
+                A new, continuous cough – this means coughing a lot for more
+                than an hour, or 3 or more coughing episodes in 24 hours (if you
+                usually have a cough, it may be worse than usual). Do not go to
+                a GP surgery, pharmacy or hospital.
+              </li>
+              <li>Etc...The list would take up the whole website.</li>
+            </ul>
+
+            <p class="info-heading">Stay at home If</p>
+            <ul class="info">
+              <li>
+                You have symptoms of Coronavirus, you'll need to stay at home
+                for 7 days.
+              </li>
+              <li>
+                You live with someone who has symptoms, you'll need to stay at
+                home for 14 days from the day the first person in the home
+                started having symptoms.
+              </li>
+              <li>Your Parish is under restrictions.</li>
+            </ul>
+            <p class="info">
+              If you live with someone who is 70 or over, has a long-term
+              condition, is pregnant or has a weakened immune system, try to
+              find somewhere else for them to stay for 14 days. If you have to
+              stay at home together, try to keep away from each other as much as
+              possible.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="img jarallax" data-jarallax data-speed="-0.2"></div>
+
+      <section class="response">
+        <h3 class="heading">Coronavirus And Jamaica</h3>
+        <div class="response-container container">
+          <div class="info-container">
+            <p class="info-heading red">
+              The Coronavirus is in Jamaica and at this time
+              <span href="#">720</span> persons have contracted the virus.
+            </p>
+
+            <p class="info-heading">
+              Measures implemented to protect Jamaican Citizens:
+            </p>
+            <ol class="info">
+              <li>
+                Schools have been suspended.
+              </li>
+              <li>
+                Large gatherings of people (Parties, Weddings, Funerals etc.)
+                have been suspended.
+              </li>
+              <li>Airports and seaports have been closed.</li>
+              <li>
+                Some BPOs have been closed. 
+              </li>
+              <li>
+                A hotline has been set up for persons who suspect that they have
+                contracted the virus.<br />
+                <button class="header-button response-button">
+                  <a href="tel:(876)542-6006">Click to get it</a>
+                </button>
+              </li>
+              <li>
+                An abundance of health care professionals has been acquired from
+                Cuba. This includes 90 specialist nurses, along with doctors and
+                therapists.
+              </li>
+              <li>
+                Daily curfews.
+              </li>
+              <li>Specific communities have been quarantined.</li>
+              <li>Other behind the scene work.</li>
+            </ol>
+            <p class="info-heading">
+              Keep Safe!
+            </p>
+          </div>
+          <div class="animation">
+            <lottie-player
+              src="/image/animation/doctor.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+      </section>
+
+      <section class="animation-container">
+     <!--   <div class="animation-text">
+          <h4 class="heading bg-animation-text">Stay at home on your couch!</h4>
+        </div> -->
+        <div class="background-animation">
+          <lottie-player
+            id="a-1"
+            src="/image/animation/home.json"
+            background=""
+            speed="1.5"
+            loop
+            autoplay
+          ></lottie-player>
+          <lottie-player
+            id="a-2"
+            src="/image/animation/home.json"
+            background="transparent"
+            speed="1.5"
+            loop
+            autoplay
+          ></lottie-player>
+          <lottie-player
+            src="/image/animation/home.json"
+            background="transparent"
+            speed="1.5"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </section>
+    
+    <div id="root"></div>
+
+    <section class="prevention">
+      <h2 class="heading">Can We Prevent The Spread Of The Coronavirus?</h2>
+      <div class="history-container container">
+        <div class="animation">
+          <lottie-player
+            src="/image/animation/washing-hands.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+
+        <div class="info-container">
+          <p class="info-heading">Yes! We can by practicing good hygiene.</p>
+          <p class="info">
+            How do you prevent Coronavirus?
+          </p>
+
+          <ol class="info">
+            <li>
+              Wash your hands with soap and water often – do this for at least
+              20 seconds.
+            </li>
+            <li>Always wash your hands when you get home or into work.</li>
+            <li>
+              Use hand sanitiser gel if soap and water are not available.
+            </li>
+            <li>
+              Cover your mouth and nose with a tissue or your sleeve (not your
+              hands) when you cough or sneeze.
+            </li>
+            <li>
+              Put used tissues in the bin immediately and wash your hands
+              afterwards.
+            </li>
+            <li>
+              Avoid close contact with people who have symptoms of
+              Coronavirus.
+            </li>
+            <li>Only travel on public transport if you need to.</li>
+            <li>Work from home, if you can.</li>
+            <li>
+              Avoid social activities, such as going to bars, restaurants,
+              theatres and cinemas.
+            </li>
+            <li>
+              Do not touch your eyes, nose or mouth if your hands are not
+              clean.
+            </li>
+            <li>
+              Do not have visitors to your home, including friends and family.
+            </li>
+          </ol>
+          <p class="info">
+            You can also visit the Health Ministry's website at
+            <a href="https://www.moh.gov.jm/" target="_blank"
+              >WWW.MOH.GOV.JM</a
+            >. <br />Click it to go.
+          </p>
+          <p class="info-heading">
+            Stay Safe, This will past. 🙂
+          </p>
+          <p class="info">
+            "Everything will be good in the end, If it's not good then it's not
+            the end! 🙂" - John Lennon
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="brogad">
+    
+    </div>
+    <footer>
+      <p>&copy; Covid-Ja 2020</p>
+      
+    </footer>
+  </div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <script src="/dist/jarallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script>
+      jarallax(document.querySelectorAll(".jarallax"), {
+        disableParallax: /iPad|iPhone|iPod|Android/,
+        disableVideo: /iPad|iPhone|iPod|Android/,
+      });
+      
+function remove() {
+  var myobj = document.getElementById("a-1");
+  var myobj2 = document.getElementById("a-2");
+  myobj.remove();
+  myobj2.remove();
+}
+
+function myFunction(x) {
+  if (x.matches) {
+    remove();
+  } else {
+  }
+}
+var x = window.matchMedia("(max-width: 700px)");
+myFunction(x); // Call listener function at run time
+x.addListener(myFunction); // Attach listener function on state changes
+
+    </script>
+      <script src="index.js"></script>
+       <script type="module" >
+         import jump from "/node_modules/jump.js/dist/jump.module.js";
+//*Jump Js
+let cta = document.getElementById("cta");
+
+cta.addEventListener("click", () => {
+  jump(".history", {
+    duration: 550,
+    offset: -70,
+  });
+});
+
+       </script>
+  </body>
+</html>
